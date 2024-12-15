@@ -1,3 +1,3 @@
 FROM nginx:1.27.3-alpine
 
-COPY . /usr/share/nginx/html
+COPY public_html /usr/share/nginx/html
